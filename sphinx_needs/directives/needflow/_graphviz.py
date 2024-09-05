@@ -157,7 +157,7 @@ def process_needflow_graphviz(
                 root_need,
                 node,
                 needs_config,
-                lambda n: calculate_link(app, n, fromdocname, relative="."),
+                lambda n: calculate_link(app, n, fromdocname),
                 id_comp_to_need,
                 rendered_nodes,
             )
